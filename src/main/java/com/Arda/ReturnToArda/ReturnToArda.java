@@ -41,6 +41,9 @@ public class ReturnToArda{
     private void addCreative(BuildCreativeModeTabContentsEvent event)    {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.Pipeweed.get());
+            event.accept(ModItems.PipeweedLeaf.get());
+
+
             }
         }
 
