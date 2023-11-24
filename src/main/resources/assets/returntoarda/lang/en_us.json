@@ -1,5 +1,7 @@
 {
   "item.returntoarda.pipeweed": "Pipeweed",
-  "item.returntoarda.pipeweedLeaf": "Pipeweed Leaf"
+  "item.returntoarda.pipeweedLeaf": "Pipeweed Leaf",
+
+  "creativetab.items_tab": "Items"
 
 }

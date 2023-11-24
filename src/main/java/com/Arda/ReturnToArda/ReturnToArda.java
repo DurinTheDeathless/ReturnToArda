@@ -1,6 +1,7 @@
 package com.Arda.ReturnToArda;
 
 import com.Arda.ReturnToArda.Items.ModItems;
+import com.Arda.ReturnToArda.items.ModCreativeModTabs;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -24,6 +25,8 @@ public class ReturnToArda{
 
     public ReturnToArda(IEventBus modEventBus)
     {
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
